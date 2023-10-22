@@ -78,8 +78,8 @@ WSGI_APPLICATION = "sistema_especialista.wsgi.application"
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': "basededados",
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': "./db.sqlite3",
         'USER': "usuario",
         'PASSWORD': "senha",
         'HOST': "127.0.0.1",
