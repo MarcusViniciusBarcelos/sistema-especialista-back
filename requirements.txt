@@ -21,6 +21,7 @@ iniconfig==2.0.0
 mccabe==0.7.0
 mypy==1.5.1
 mypy-extensions==1.0.0
+mysqlclient==2.2.0
 outcome==1.2.0
 packaging==23.1
 parameterized==0.9.0
